@@ -114,7 +114,7 @@ export class BlockchainClient {
 
   async getEventLogsForContracts(
     blockNumber: number, 
-    contractAddresses: string[]
+    contractAddresses: string[] | undefined
   ): Promise<IndexedEventLog[]> {
     try {
       const logs = await this.provider.getLogs({
