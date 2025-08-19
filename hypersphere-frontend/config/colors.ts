@@ -1,0 +1,53 @@
+export const HYPERLIQUID_COLORS = {
+  background: {
+    primary: 'hsl(0, 0%, 0%)',
+    secondary: 'hsl(0, 0%, 11%)',
+    tertiary: 'hsl(0, 0%, 16%)',
+  },
+  foreground: {
+    primary: 'hsl(0, 0%, 87%)',
+    secondary: 'hsl(0, 0%, 75%)',
+    tertiary: 'hsl(0, 0%, 45%)',
+    quaternary: 'hsl(0, 0%, 25%)',
+    accent: 'hsl(0, 0%, 100%)',
+  },
+  accent: {
+    primary: 'hsl(172, 47%, 36%)',
+    light: 'hsl(172, 47%, 51%)',
+    lightest: 'hsl(172, 47%, 61%)',
+    dark: 'hsl(172, 47%, 30%)',
+    darkest: 'hsl(0, 0%, 0%)',
+  },
+  status: {
+    success: 'hsl(147, 43%, 52%)',
+    successDark: 'hsl(147, 43%, 36%)',
+    successLight: 'hsl(147, 43%, 92%)',
+    error: 'hsl(7, 80%, 62%)',
+    errorLight: 'hsl(7, 80%, 92%)',
+    warning: 'hsl(36, 100%, 65%)',
+    warningLight: 'hsl(36, 100%, 95%)',
+  },
+  borderRadius: {
+    sm: '6px',
+    md: '12px',
+    mdlg: '16px',
+    lg: '24px',
+    full: '9999px',
+  },
+  chart: {
+    primary: 'hsl(172, 47%, 51%)',
+    secondary: 'hsl(172, 47%, 36%)',
+    tertiary: 'hsl(172, 47%, 61%)',
+    success: 'hsl(147, 43%, 52%)',
+    warning: 'hsl(36, 100%, 65%)',
+    error: 'hsl(7, 80%, 62%)',
+    gradient: [
+      'hsl(172, 47%, 51%)',
+      'hsl(172, 47%, 36%)',
+      'hsl(172, 47%, 61%)',
+      'hsl(147, 43%, 52%)',
+      'hsl(36, 100%, 65%)',
+      'hsl(7, 80%, 62%)',
+    ],
+  },
+} as const;
